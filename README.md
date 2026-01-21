@@ -53,3 +53,20 @@ Key dependencies include (additional packages are required; see scripts and note
 ## Input Data
 
 Input data expected under the `Data/` directory:
+
+- `IPF_patient_ids.csv`
+- `banovich_exprDF_annotmapped.parquet`
+- `thomas_geneDF.parquet`
+- `thomas_annotDF.parquet`
+
+Data files are derived from publicly available datasets described in the manuscript.  
+This repository does **not** redistribute raw experimental data beyond processed tables used for analysis.
+
+---
+
+## Figure Generation
+
+All manuscript figures can be reproduced by running:
+
+```bash
+Banovich_IPF_analysis_clean.ipynb
